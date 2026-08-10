@@ -8,7 +8,7 @@ jobs:
   call-reusable:
     uses: ./.github/workflows/original_workflow.yaml
 
-  # call reusable from another repo
-  # uses: shaik-byte/original-repo/.github/workflows/another_repo_workflow.yaml@main
+  reusable_from_another_repo:
+    uses: SwarnaAnjani/reuseable/.github/workflows/demo.yml@main
 
 
