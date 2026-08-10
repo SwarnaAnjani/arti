@@ -9,6 +9,6 @@ jobs:
     uses: ./.github/workflows/original_workflow.yaml
 
   reusable_from_another_repo:
-    uses: SwarnaAnjani/reuseable/.github/workflows/demo.yml@main
+    uses: SwarnaAnjani/reuseable/.github/workflows/another_repo_workflow.yaml@main
 
 
